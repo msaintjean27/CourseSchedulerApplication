@@ -1,0 +1,21 @@
+# NetBeans / Java
+nbproject/private/
+build/
+dist/
+target/
+out/
+*.class
+*.log
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Derby (local DB + logs)
+derby.log
+DerbyDatabases/
+derby-db/
