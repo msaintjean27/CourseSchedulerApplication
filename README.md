@@ -7,7 +7,7 @@ Java Swing desktop app to manage **semesters**, **courses**, **classes/sections*
 ## 📸 Screenshots 
 
 ### Admin Section
-![Admin Section](Screenshots/CSStartingScreen.png)
+![Admin Section](Screenshots/AdminSection.png)
 
 ### Student Section
 ![Student Section](Screenshots/StudentSection.png)
