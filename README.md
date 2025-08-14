@@ -4,7 +4,8 @@ Java Swing desktop app to manage **semesters**, **courses**, **classes/sections*
 
 ---
 
-## ✨ Features
+## ✨ Start Screen
+![Start Screen](screenshots/start-screen.png)
 
 ### Admin
 - Create **Semesters**
