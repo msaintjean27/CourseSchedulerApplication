@@ -15,13 +15,14 @@ Java Swing desktop app to manage **semesters**, **courses**, **classes/sections*
 ### Admin
 - Create **Semesters**
 - Add **Courses** and **Classes/Sections** (with capacity)
+- Adds and drops **Students** while adjusting the **Class/Sections** capacity
 - View class rosters (scheduled vs waitlisted)
 - Drop classes (updates enrollments)
 
 ### Student
 - Create **Student** records
 - **Register / Waitlist** for classes
-- **Drop** a class
+- **Add/Drop** a class
 - View **My Schedule** by semester
 
 ---
