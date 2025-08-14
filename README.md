@@ -26,6 +26,3 @@ Java Swing desktop app to manage **semesters**, **courses**, **classes/sections*
 - Apache NetBeans (Ant project)
 - Apache Derby 10.17 — **Network Server** mode
 - JDBC driver: `org.apache.derby.jdbc.ClientDriver`
-
-**Main class:** `courseschedulermsj.MainFrame_`  
-**JDBC settings used by the app:**
