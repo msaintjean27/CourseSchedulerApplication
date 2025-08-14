@@ -1,28 +1,30 @@
-# 📚 Course Scheduler Application
+# 📚 Course Scheduler Application (CMPSC 221)
 
-A Java-based course scheduling application using **Apache Derby** as the database backend.  
-This application allows users to manage semesters, courses, students, and class schedules in a structured way.
+Java Swing desktop app to manage **semesters**, **courses**, **classes/sections**, **students**, and **enrollments** using **Apache Derby (Network Client)**. Built in **Apache NetBeans**.
 
 ---
 
 ## ✨ Features
-- 📅 Manage **students**, **courses**, **semesters**, and **class schedules**.
-- 💾 Uses **Apache Derby** (Java DB) for data storage.
-- 🖥 Built with **Java Swing** in NetBeans for a clean, interactive UI.
+
+### Admin
+- Create **Semesters**
+- Add **Courses** and **Classes/Sections** (with capacity)
+- View class rosters (scheduled vs waitlisted)
+- Drop classes (updates enrollments)
+
+### Student
+- Create **Student** records
+- **Register / Waitlist** for classes
+- **Drop** a class
+- View **My Schedule** by semester
 
 ---
 
-## 🛠 Requirements
-- Java 17+ (or compatible version)
-- Apache Derby 10.17.1.0  
-- NetBeans IDE 22 (or another Java IDE)
-- Git
+## 🛠 Tech
+- Java (JDK 23), Swing/AWT
+- Apache NetBeans (Ant project)
+- Apache Derby 10.17 — **Network Server** mode
+- JDBC driver: `org.apache.derby.jdbc.ClientDriver`
 
----
-
-## 🚀 Setup
-
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/msaintjean27/CourseSchedulerApplication.git
-cd CourseSchedulerApplication
+**Main class:** `courseschedulermsj.MainFrame_`  
+**JDBC settings used by the app:**
